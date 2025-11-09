@@ -1,4 +1,4 @@
-import { Mountain, BookOpen, Users } from 'lucide-react';
+import { Mountain, BookOpen, Users, Package, Video } from 'lucide-react';
 
 export default function Navbar() {
   return (
@@ -17,6 +17,14 @@ export default function Navbar() {
             <a href="#beginners" className="text-gray-600 hover:text-gray-900 transition-colors flex items-center gap-1">
               <Users className="h-4 w-4" />
               Beginners
+            </a>
+            <a href="#gear" className="text-gray-600 hover:text-gray-900 transition-colors flex items-center gap-1">
+              <Package className="h-4 w-4" />
+              Gear
+            </a>
+            <a href="#videos" className="text-gray-600 hover:text-gray-900 transition-colors flex items-center gap-1">
+              <Video className="h-4 w-4" />
+              Videos
             </a>
             <a href="#stories" className="text-gray-600 hover:text-gray-900 transition-colors">Stories</a>
           </nav>

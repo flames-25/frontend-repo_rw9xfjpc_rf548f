@@ -1,7 +1,9 @@
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import Techniques from './components/Techniques';
+import Gear from './components/Gear';
 import Beginners from './components/Beginners';
+import VideoHub from './components/VideoHub';
 import Stories from './components/Stories';
 
 function Footer() {
@@ -12,7 +14,9 @@ function Footer() {
           <p>© {new Date().getFullYear()} Crux Collective. Climb smart, have fun.</p>
           <div className="flex items-center gap-4">
             <a href="#techniques" className="hover:text-gray-900">Techniques</a>
+            <a href="#gear" className="hover:text-gray-900">Gear</a>
             <a href="#beginners" className="hover:text-gray-900">Beginners</a>
+            <a href="#videos" className="hover:text-gray-900">Videos</a>
             <a href="#stories" className="hover:text-gray-900">Stories</a>
           </div>
         </div>
@@ -28,7 +32,9 @@ export default function App() {
       <main>
         <Hero />
         <Techniques />
+        <Gear />
         <Beginners />
+        <VideoHub />
         <Stories />
       </main>
       <Footer />
